@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="contact-body">
+    <nav class="navbar">
+        <div class="logo">Emmanuel</div>
+        <ul class="nav-links">
+          <li><a href="Home.html">HOME</a></li>
+          <li><a href="Watch.html">WATCH</a></li>
+          <li><a href="Give.html">GIVE</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+  
+      </nav>
+    <div class="contact-container">
+        <h2> Contact Us</h2>
+        <form action="contact.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message: </label>
+            <textarea id="message" name="message" required></textarea>
+
+
+            <button type="submit">Send Message</button>
+
+        </form>
+    </div>
+</body>
+</html>
